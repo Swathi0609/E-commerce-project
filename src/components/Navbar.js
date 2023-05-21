@@ -6,8 +6,8 @@ import SearchIcon from "@mui/icons-material/Search";
 
 export default function navbar() {
   return (
-    <div className="container mobile_container">
-      <div className="wrapper mobile_wrapper">
+    <div className="navbar_container mobile_container">
+      <div className="navbar_wrapper mobile_wrapper">
         <div className="left">
           <div className="language">EN</div>
           <div className="searchbar">

@@ -53,7 +53,7 @@ export const categories = [
 export const popularProducts = [
   {
     id: 1,
-    img: Mensjakeguitar,
+    img: "https://cdn-tp2.mozu.com/11961-16493/cms/16493/files/2158967f-fca4-46db-81ac-07ee5611d347?max=700&quality=60&_mzcb=_1677870370719",
   },
   {
     id: 2,

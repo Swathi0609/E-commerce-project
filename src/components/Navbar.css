@@ -1,9 +1,9 @@
-.container{
+.navbar_container{
  height:60px;
 
 }
 
-.wrapper{
+.navbar_wrapper{
  padding:10px 20px;
 display:flex;
 justify-content:space-between;
@@ -47,7 +47,7 @@ cursor:pointer;
   cursor:pointer;
   margin-left:25px;
 }
-@media only screen and(max-width:380px) {
+/* @media only screen and(max-width:380px) {
   .container {
     display: none;
   }
@@ -70,4 +70,4 @@ cursor:pointer;
   .mobile_input{
     width:30px;
   }
-}
+} */

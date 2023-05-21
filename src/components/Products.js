@@ -4,7 +4,7 @@ import Product from "./Product";
 
 export default function Products() {
   return (
-    <div className="Products_container">
+    <div className="Productone_container">
       {popularProducts.map((item) => (
         <Product item={item} key={item.id} />
       ))}

@@ -8,7 +8,7 @@ import {
 function Product(props) {
   return (
     <div className="product_container">
-      <div className="circle"></div>
+      <div className="product_circle"></div>
       <img className="product_image" src={props.item.img} />
       <div className="product_info">
         <div className="product_icon">
