@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/E-commerce-project/static/css/main.d0aad724.css",
+    "main.js": "/E-commerce-project/static/js/main.c962768f.js",
+    "static/media/winterdress.jpg": "/E-commerce-project/static/media/winterdress.36796fe79cb8ac8e30ca.jpg",
+    "index.html": "/E-commerce-project/index.html",
+    "main.d0aad724.css.map": "/E-commerce-project/static/css/main.d0aad724.css.map",
+    "main.c962768f.js.map": "/E-commerce-project/static/js/main.c962768f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0aad724.css",
+    "static/js/main.c962768f.js"
+  ]
+}
