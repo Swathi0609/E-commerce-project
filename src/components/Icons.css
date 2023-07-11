@@ -1,0 +1,19 @@
+.icons_container{
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons_product{
+   
+   font-size: 34px;
+    padding: 50px;
+}
+.line{
+    /* padding:5px; */
+    margin-top:3%;
+}
+@media only screen and(max-width:1100px) {
+    .icons_container{
+        display: none;
+    }
+}

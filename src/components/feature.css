@@ -1,0 +1,21 @@
+.feature_container{
+height: 20vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feature_tittle{
+    font-weight:bold;
+    font-size: 30px;
+    
+}
+
+.feature_desc{
+    color:#FF839F;
+    font-weight:300;
+    font-size: 60px;
+    padding: 10px;
+
+}

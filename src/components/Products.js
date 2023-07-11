@@ -1,13 +1,15 @@
 import React from "react";
-import { popularProducts } from "../components/data";
+import { popularProducts } from "./data";
 import Product from "./Product";
+import "./Products.css";
 
-export default function Products() {
+function Products(props) {
   return (
-    <div className="Productone_container">
+    <div className="Products_container">
       {popularProducts.map((item) => (
-        <Product item={item} key={item.id} />
+        <Product item={item} />
       ))}
     </div>
   );
 }
+export default Products;

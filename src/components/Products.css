@@ -1,6 +1,6 @@
-.Productone_container{
-padding: 20px;
-display: flex;
-flex-wrap: wrap;
- justify-content: space-between;
-}
+.Products_container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 

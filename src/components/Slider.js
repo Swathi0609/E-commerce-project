@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import "./slider.css";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
 import { sliderItems } from "../components/data";
+import { Link } from "react-router-dom";
+
 export default function Slider() {
   const [slideIndex, setSlideIndex] = useState(0);
   var trans = slideIndex * -100 + "vw";
   function handleclick(direction) {
     if (direction == "left") {
-      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
+      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 3);
     } else {
-      setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+      setSlideIndex(slideIndex < 3 ? slideIndex + 1 : 0);
     }
   }
   return (
@@ -30,7 +32,9 @@ export default function Slider() {
             <div className="slide_info_container">
               <h1 className="h1-title">{item.title}</h1>
               <p className="slide_description">{item.desc}</p>
-              <button className="slide_btn">SHOP NOW</button>
+              <Link to={item.route} style={{ textDecoration: "none" }}>
+                <button className="slide_btn">SHOP NOW</button>
+              </Link>
             </div>
           </div>
         ))}

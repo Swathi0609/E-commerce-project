@@ -1,10 +1,23 @@
 .announcement-container{
     height:30px;
-    background-color: teal;
-    color:white;
+    background-color:white;
+    color:gray;
     display: flex;
     align-items:center ;
     justify-content: center;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 500;
+    padding: 10px;
+font-style:italic ;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+@media only screen and(max-width:800px) {
+.announcement-container{
+    /* font-size:14px ;
+    font-weight: 300;;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* height:50px;
+    background-color: red; */ 
+    display:none;
+}
 }

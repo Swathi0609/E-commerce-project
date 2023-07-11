@@ -1,86 +1,370 @@
-import summermodel from "../images/summermodel.webp";
 import winterdress from "../images/winterdress.jpg";
 import sportdress from "../images/sportdress.jpeg";
-import Mensjakeguitar from "../images/Mensjakeguitar.png";
-import Angela from "../images/angela.avif";
-import Parada from "../images/parada.jpeg";
-import Buruda from "../images/buruda.jpg";
-import Noissue from "../images/noissue.jpg";
-import Cap from "../images/cap.webp";
-import Arrowjacket from "../images/arrowjacket.png";
-import Womenjacket from "../images/WomenJacket.png";
 
 export const sliderItems = [
   {
     id: 1,
-    img: summermodel,
+    img: "https://m.media-amazon.com/images/I/71U0Wo-rizL._AC_UL600_QL65_.jpg",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "f5fafd",
+    // bg: "f5fafd",
   },
   {
     id: 2,
     img: winterdress,
     title: "AUTUMN COLLECTION",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "fcf1ed",
+    // bg: "fcf1ed",
   },
   {
     id: 3,
-    img: sportdress,
-    title: "LOUNGEWEAR LOVE",
+    img: "https://m.media-amazon.com/images/I/61cfVhHDzrL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "LOUNGEWEAR",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "fbf0f4",
+    // bg: "fbf0f4",
+  },
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/I/71n5WJFGBEL._AC_UL600_QL65_.jpg",
+    title: "LIGHT JACKET",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    // bg: "fbf0f4",
   },
 ];
 export const categories = [
   {
     id: 1,
     img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "SHIRT STYLE!",
+    title: "SHIRTPRODUCTS",
+    route: "/shirts",
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "LOUNGEWEAR LOVE",
+    title: "LOUNGEWEARLOVE",
+    route: "/loungewear",
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    title: "LIGHT JACKETS",
+    title: "LIGHTJACKETS",
+    route: "/jackets",
+  },
+  {
+    id: 4,
+    img: "https://cdn.shopify.com/s/files/1/0105/8881/5418/products/indianwearonline-4157.jpg?v=1677235683",
+    title: "KURTIS",
+    route: "/kurthi",
+  },
+  {
+    id: 5,
+    img: "https://i.pinimg.com/736x/cc/02/f8/cc02f8e957952cc5d23c04e2b83e96dd.jpg",
+    title: "LONGFROCK",
+    route: "/frock",
   },
 ];
 export const popularProducts = [
   {
     id: 1,
-    img: "https://cdn-tp2.mozu.com/11961-16493/cms/16493/files/2158967f-fca4-46db-81ac-07ee5611d347?max=700&quality=60&_mzcb=_1677870370719",
+    img: "https://m.media-amazon.com/images/I/418oucdb5KL.jpg",
+    title: "TULSATTVA",
+    category: "SHIRTPRODUCTS",
+    price: "₹100",
   },
   {
     id: 2,
-    img: Angela,
+    img: "https://m.media-amazon.com/images/I/718NNN+mTyL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "HARPA",
+    category: "SHIRTPRODUCTS",
+    price: "₹100",
   },
   {
     id: 3,
-    img: Parada,
+    img: "https://m.media-amazon.com/images/I/81OZ5MwsdhL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "JISORA",
+    category: "LOUNGEWEARLOVE",
   },
   {
     id: 4,
-    img: Buruda,
+    img: "https://m.media-amazon.com/images/I/616O57hNslL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "DAKBA",
+    category: "LOUNGEWEARLOVE",
   },
   {
     id: 5,
-    img: Noissue,
+    img: "https://m.media-amazon.com/images/I/71NH3GqYURL._AC_UL600_QL65_.jpg",
+    title: "SMARTYPANTS",
+    category: "LIGHTJACKETS",
+    price: "₹100",
   },
   {
     id: 6,
-    img: Cap,
+    img: "https://m.media-amazon.com/images/I/31ye2D-soAL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "ATOZCREATION",
+    price: "₹100",
+    category: "LIGHTJACKETS",
   },
   {
     id: 7,
-    img: Arrowjacket,
+    img: "https://m.media-amazon.com/images/I/41DgZ5BGHJL._AC_UL600_QL65_.jpg",
+    title: "MVPATTERNS",
+    category: "KURTIS",
+    price: "₹100",
   },
   {
     id: 8,
-    img: Womenjacket,
+    img: "https://m.media-amazon.com/images/I/91DYqON8D3L._AC_UL600_QL65_.jpg",
+    title: "ARAYNA",
+    category: "KURTIS",
+    price: "₹100",
+  },
+  {
+    id: 9,
+    img: "https://m.media-amazon.com/images/I/71oiQBgERcL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "MOHTARMA",
+    category: "LONGFROCK",
+    price: "₹100",
+  },
+  {
+    id: 10,
+    img: "https://m.media-amazon.com/images/I/71Ji2hUMr7L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "SHEHZADI",
+    category: "LONGFROCK",
+    price: "₹100",
+  },
+];
+export const SHIRTPRODUCTS = [
+  {
+    id: 1,
+    img: "https://m.media-amazon.com/images/I/91d6V3FBU8L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "OUI",
+    desc: "BLACK PAISLEY FLORAL ALL OVER. ",
+    price: "₹468",
+    bg: "red",
+  },
+  {
+    id: 2,
+    img: "https://m.media-amazon.com/images/I/418oucdb5KL.jpg",
+    title: "TULSATTVA",
+    desc: "WOMEN CREAM SHIFFLI SHIRT",
+    price: "₹509",
+    bg: "ffffff",
+  },
+  {
+    id: 3,
+    img: "https://m.media-amazon.com/images/I/71eFrujnUFL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "EDEN",
+    desc: "WOMEN'S PLAIN  REGULAR FIT TOP SHIRT",
+    price: "₹488",
+    bg: "ffffff",
+  },
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/I/61d35AC+BpL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "FUNDAYFASHION",
+    desc: "WOMEN FLORAL PRINT CREAM SHIRT",
+    price: "₹809",
+    bg: "ffffff",
+  },
+
+  {
+    id: 5,
+    img: "https://m.media-amazon.com/images/I/61i+YkGareL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "COZAMI",
+    desc: "WOMEN'S REGULAR FIT DOUBLE POCKET CASUAL COTTON SHIRT",
+    price: "₹900",
+    bg: "ffffff",
+  },
+  {
+    id: 6,
+    img: "https://m.media-amazon.com/images/I/718NNN+mTyL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "HARPA",
+    desc: "WOMEN'S COTTON REGULAR FIT T-SHIRT",
+    price: "₹559",
+    bg: "ffffff",
+  },
+];
+export const LOUNGEWEAR = [
+  {
+    id: 1,
+    img: "https://m.media-amazon.com/images/I/71d-k0yolFL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "GRECIILOOKS",
+    desc: "TOP & BOTTOM SET FOR WOMEN| COTTON LYCRA FULL PAIR Lounge Wear| Night Wear Suite Set| Western Tops for Women| Printed Bottom for Girls| Outdoor Wear| Lounge Wear",
+    price: "₹350",
+    bg: "ffffff",
+  },
+  {
+    id: 2,
+    img: "https://m.media-amazon.com/images/I/71wYJ2Zo8UL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "EDEN",
+    desc: "WOMEN'S PURE COTTON ALL OVER PRINTED NIGHT SUIT TOP",
+    price: "₹500",
+    bg: "ffffff",
+  },
+  {
+    id: 3,
+    img: "https://m.media-amazon.com/images/I/81DlauMTRpL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "SMOWKLY",
+    desc: "RABBIT PRINT ROUND NECK SHORT SLEEVE",
+    price: "₹499",
+    bg: "ffffff",
+  },
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/I/41yMlkGeidL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "DHRUVITRENDZ",
+    desc: "Night Suit Set for Women Rayon, Night Dress, Lounge Wear,Tie-Dye Rayon,Top and Capri Set for Women,Women Nightwear",
+    price: "₹699",
+    bg: "ffffff",
+  },
+  {
+    id: 5,
+    img: "https://m.media-amazon.com/images/I/616O57hNslL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "DAKBA",
+    desc: "100% PURE COTTON NIGHTWEAR",
+    price: "₹500",
+    bg: "ffffff",
+  },
+  {
+    id: 6,
+    img: "https://m.media-amazon.com/images/I/81OZ5MwsdhL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "JISORA",
+    desc: "100% PURE COTTON NIGHTWEAR",
+    price: "₹500",
+    bg: "ffffff",
+  },
+];
+export const LIGHTJACKET = [
+  {
+    id: 1,
+    img: "https://m.media-amazon.com/images/I/61VCe4wYXVL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "CAMPUSSUTRA",
+    desc: " WESTERN STYLISH JACKET FOR WOMEN'S.",
+    price: "₹700",
+  },
+  {
+    id: 2,
+    img: "https://m.media-amazon.com/images/I/819rIWiTo8L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "FUNDAYFASHION ",
+    desc: "WOMEN'S SOLID REGULAR FASHION",
+    price: "₹800",
+  },
+  {
+    id: 3,
+    img: "https://m.media-amazon.com/images/I/31ye2D-soAL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "ATOZCREATION",
+    desc: "WOMEN'S PRINTED BOMBER JACKET.",
+    price: "₹600",
+  },
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/I/71Jy3CBHXhL._AC_UL600_QL65_.jpg",
+    title: "MISSCHASE",
+    desc: "WOMEN'S BLACK ROUND NECK FULL SLEEVES.",
+    price: "₹500",
+  },
+  {
+    id: 5,
+    img: "https://m.media-amazon.com/images/I/71NH3GqYURL._AC_UL600_QL65_.jpg",
+    title: "SMARTYPANTS",
+    desc: "WOMEN'S COMFORT FIT LIGHT WEIGHTED POLYSTER JACKET",
+    price: "₹699",
+  },
+  {
+    id: 6,
+    img: "https://m.media-amazon.com/images/I/81hYLjw9LJL._AC_UL600_QL65_.jpg",
+    title: "PROKICK",
+    desc: "WOMWN'S RUST HOOKED FULL SLEEVE SOLID LONGELINE JACKET.",
+    price: "₹800",
+  },
+];
+export const KURTIS = [
+  {
+    id: 1,
+    img: "https://m.media-amazon.com/images/I/519UM3B8v0L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "RANGITA",
+    desc: "WOMEN CHANDERI STRAIGHT KURTI.",
+    price: "₹1599",
+  },
+  {
+    id: 2,
+    img: "https://m.media-amazon.com/images/I/51ah2gxOVjL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "GENERIC",
+    desc: "ANARKALI SOLID KURTA HEAVY GEORETTE KURTI.",
+    price: "₹1999",
+  },
+  {
+    id: 3,
+    img: "https://m.media-amazon.com/images/I/91DYqON8D3L._AC_UL600_QL65_.jpg",
+    title: "ARAYNA",
+    desc: "WOMEM'S COTTON PRINTED ANARKALI KURTI",
+    price: "₹1999",
+  },
+
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/I/71ZJKQmooFL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "STYLUM",
+    desc: "WOMEN'S FLORAL PRINT RAYON. A-LINE KURTA",
+    price: "₹1799",
+  },
+
+  {
+    id: 5,
+    img: "https://m.media-amazon.com/images/I/81SKJlMA+0L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "MVPATTERNS",
+    desc: "WOMEN'S FLORAL PRINTED 100% COTTON KURTI PALAZZO PANTS SET WITH DUPATTA.",
+    price: "₹1799",
+  },
+  {
+    id: 6,
+    img: "https://m.media-amazon.com/images/I/71gFJ3veBmL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "AMAYRA",
+    desc: "WOMEN'S RAYON PRINTED STRAIGHT KURTI WITH PALAZZOS SET.",
+    price: "₹579",
+  },
+];
+export const LONGFROCK = [
+  {
+    id: 1,
+    img: "https://m.media-amazon.com/images/I/61EPXqCf98L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "SHEETAL ASSOCIATES",
+    desc: "WOMEN'S SLEEVELESS FIT AND FLARE CAUSAL MAXI DRESS.",
+    price: "₹2500",
+  },
+  {
+    id: 2,
+    img: "https://m.media-amazon.com/images/I/71JsuLbh0ML._AC_UL600_FMwebp_QL65_.jpg",
+    title: "OOMPH!",
+    desc: "WOMEN'S CREPE A-LINE MAXI DRESS",
+    price: "₹1500",
+  },
+  {
+    id: 3,
+    img: "https://m.media-amazon.com/images/I/41R9B4kB6XL._SY500._SX._UX._SY._UY_.jpg",
+    title: "LAZZLY",
+    desc: "WOMEN'S GEORGETTE TRADITIONAL ETHNIC LONG GOWN.",
+    price: "₹1999",
+  },
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/I/71oiQBgERcL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "MOHTARMA",
+    desc: "SUNGUDI SILK GOWM FULLSTICHED BANARASI MODEL.",
+    price: "₹1500",
+  },
+  {
+    id: 5,
+    img: "https://m.media-amazon.com/images/I/71PfL-MfFuL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "JANASYA",
+    desc: "WOMEN'S FIT AND FLARE MAXI GOWN",
+    price: "₹1499",
+  },
+  {
+    id: 6,
+    img: "https://m.media-amazon.com/images/I/71Ji2hUMr7L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "VAANICREATION",
+    desc: "WOMEN'S MAXI ANARKALI SEMI STITCHED GOWN",
+    price: "₹1499",
   },
 ];

@@ -1,4 +1,5 @@
 import "./categoryitem.css";
+import { Link } from "react-router-dom";
 
 function CategoryItem(props) {
   return (
@@ -6,7 +7,9 @@ function CategoryItem(props) {
       <img className="category_image" src={props.item.img} />
       <div className="category_info_container">
         <h1 className="category_title">{props.item.title}</h1>
-        <button className="category_btn">SHOP NOW</button>
+        <Link to={`/${props.item.title}`} style={{ textDecoration: "none" }}>
+          <button className="category_btn">SHOP NOW</button>
+        </Link>
       </div>
     </div>
   );

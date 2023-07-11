@@ -27,15 +27,18 @@ border:1px solid lightgray;
 .Newsletter_input{
    border: none;
     flex:8;
-    padding-left: 20px;
-
+    /* padding-left: 20px; */
+    cursor:pointer ;
+    width:97% ;
+    height:97%;
 }
 .Newsletter_Btn{
     border: none;
-    flex:1;
+    flex:.5;
     background-color:teal ;
     color:white;
     display: flex;
     align-items: center;
-    padding: 10px;
+    justify-content: center;
+    padding:10px;
 }

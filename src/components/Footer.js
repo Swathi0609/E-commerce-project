@@ -11,6 +11,7 @@ import {
   Pinterest,
   Twitter,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -18,9 +19,10 @@ export default function Footer() {
       <div className="Footer_left">
         <h1 className="Footer_logo">SWATHI GARMENTS</h1>
         <p className="Footer_desc">
-          There are many variations of passages of lorem ipsum available,but the
-          majority have suffered alteration in some form,by injected hamour,or
-          randomised words which don't look even slightly belivable.
+          Is a designer-focused clothing store that carries couture and runway
+          pieces from the hottest designers. Be sure to check out their chic
+          selection of dresses, skirts, jackets, and more. From event dressing
+          to casual weekend wear, has the fashion you want.
         </p>
         <div className="Footer_socialcontainer">
           <div className="Footer_socialicon colorone ">
@@ -40,12 +42,16 @@ export default function Footer() {
       <div className="Footer_centre">
         <div className="footer_tittle">USEFUL LINKS</div>
         <ul className="footer_list">
+          {/* <Link to="/HOME" style={{ textDecoration: "none" }}> */}
           <li className="footer_listitem">Home</li>
-          <li className="footer_listitem">Cart</li>
-          <li className="footer_listitem">Men Fashion</li>
-          <li className="footer_listitem">Woman Fashion</li>
-          <li className="footer_listitem"> Accessories</li>
-          <li className="footer_listitem">My Account</li>
+          {/* </Link> */}
+          {/* <Link to="/S" style={{ textDecoration: "none" }}> */}
+
+          <li className="footer_listitem">WOMEN'S SHIRT </li>
+          <li className="footer_listitem">WOMEN'S LIGHTJACKET</li>
+          <li className="footer_listitem">WOMEN'S LOUNGEWEAR</li>
+          <li className="footer_listitem">WOMAN'S KURTIS</li>
+          <li className="footer_listitem">WOMAN'S LONGFROCK</li>
           <li className="footer_listitem">Order Tracking</li>
           <li className="footer_listitem">Wishlist</li>
           <li className="footer_listitem">Wishlist</li>

@@ -73,3 +73,14 @@ align-items: center;
 .payment{
 width: 100%;
 }
+@media only screen and (max-width:1200px){
+    .footer_list{
+        display: none;
+    }
+    .footer_tittle{
+        display: none;
+    }
+        .Footer_desc{
+            padding:10px ;
+        }
+}

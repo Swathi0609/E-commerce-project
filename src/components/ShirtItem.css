@@ -1,0 +1,130 @@
+
+.shirtproducts_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shirtitem_container{
+    /* display: flex; */
+    align-items: center; 
+    text-align: center;
+    padding: 20px; 
+   width: 650px;
+   margin: 2%;
+    justify-content: space-between;
+    background-color:white;  
+    box-shadow:5px 10px 5px rgb(33, 28, 28) ;
+    /* background-color:rgb(138, 45, 45) ; */
+    /* flex: 1;
+    margin: 10px; */
+    /* height: 50%;
+     min-width: 60px; */
+     /* background-color: #f5fbfd; */
+}
+.shirtitem_container:hover{
+    position: sticky;
+        will-change: transform;
+        transform: scale(0.8);
+}
+.shirtitem_info_container{
+   /* display: flex; */
+     /* margin: 10px; */
+    /* height: 50%; */
+     /* min-width:20px; */
+     background-color:white;
+    /* position: relative; */
+    /* box-shadow:  5px 5px 5px #555; */
+    /* height: 50%;
+     width: 50%; */
+}
+.shirtitem_info_container:hover {
+/* transition: all 0.5s ease;
+background-color:white;
+box-shadow: 5px 5px 5px gray; */
+position:sticky;
+will-change:transform;
+transform: scale(1.1);
+/* border:black ; */
+
+
+}
+.Shirtitem_image{
+        /* flex:1; */
+       width:15%;
+        height:10%;
+        object-fit: cover;
+        box-shadow:5px 5px 10px grey;
+       
+}
+.shirtitem_title {
+    color: black;
+    text-align: center;
+    font-family: 'stylish', sans-serif;
+    /* display: flex;
+    align-items: center; */
+    justify-content: center;
+   padding: 10px;
+
+}
+
+.shirtitem_desc {
+    color: black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shirtitem_price{
+    font-size:50px ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shirtitem_btn {
+    padding:5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 15vw;
+    height: 5vh;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.shirtitem_btn:hover {
+    background-color: white;
+    transition: all 0.5s ease;
+
+
+}
+.btn1{
+    background-color: lightgray;
+}
+
+.btn2 {
+    background-color: #E09494;
+}
+@media only screen and(max-width:1000px) {
+.shirtitem_container {
+       width: 950px;
+        margin: 5%; 
+}
+.shirtitem_btn{
+    width:10% ;
+}
+}

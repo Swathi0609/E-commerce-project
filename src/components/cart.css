@@ -33,6 +33,11 @@ display: flex;
 .cart_info{
 flex:3;
 }
+.null_items{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 .cart_product{
 display: flex;
     justify-content: space-between;

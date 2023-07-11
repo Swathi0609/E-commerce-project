@@ -1,0 +1,17 @@
+.shirtitem_container{
+    
+    /* grid-template-columns:auto auto;
+    gap:2%;
+     */flex: 1;
+}
+.shirtitem_info_container{
+    /* gap:50px; */
+
+}
+.shirtitem_image{
+    
+    /* width: 10%;
+        height: 10%; */
+        object-fit: cover;
+        box-shadow: 5px 5px 10px lightgreen;
+}
